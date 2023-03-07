@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add exoress
+
+PATH: 
+  C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Users\c7x43t_user\AppData\Roaming\ActiveState\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\c7x43t_user\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Git\cmd;C:\Users\c7x43t_user\.windows-build-tools\python27\;C:\Users\c7x43t_user\AppData\Roaming\nvm\v16.19.1\node_modules\windows-build-tools\node_modules\.bin;C:\Users\c7x43t_user\AppData\Roaming\nvm\v16.19.1\node_modules\node_modules\.bin;C:\Users\c7x43t_user\AppData\Roaming\nvm\v16.19.1\node_modules\.bin;C:\Users\c7x43t_user\AppData\Roaming\nvm\node_modules\.bin;C:\Users\c7x43t_user\AppData\Roaming\node_modules\.bin;C:\Users\c7x43t_user\AppData\node_modules\.bin;C:\Users\c7x43t_user\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Users\c7x43t_user\AppData\Roaming\nvm\v16.19.1\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Users\c7x43t_user\AppData\Roaming\ActiveState\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\c7x43t_user\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Git\cmd;C:\Users\c7x43t_user\.cargo\bin;C:\Users\c7x43t_user\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\c7x43t_user\AppData\Local\Programs\Python\Python311\;C:\Users\c7x43t_user\AppData\Local\Microsoft\WindowsApps;C:\Users\c7x43t_user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\c7x43t_user\.dotnet\tools;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;C:\Program Files\OpenSSL-Win64\bin;C:\tools\msys64;C:\tools\msys64\usr\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/exoress: Not found
+      at Request.params.callback [as _callback] (C:\Users\c7x43t_user\AppData\Roaming\nvm\v16.19.1\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\c7x43t_user\AppData\Roaming\nvm\v16.19.1\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Users\c7x43t_user\AppData\Roaming\nvm\v16.19.1\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Users\c7x43t_user\AppData\Roaming\nvm\v16.19.1\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
