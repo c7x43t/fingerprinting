@@ -15,11 +15,14 @@
     <script src="tracking.js"></script>
     <script>
         async function main() {
-            var data = await fingerPrintJS();
-            console.log({ fingerint: data });
-            var formatted = jsonFormatHighlight(data);
+            // var data = await fingerPrintJS();
+            // console.log({ fingerint: data });
+            // var formatted = jsonFormatHighlight(data);
             var pre = document.createElement('pre');
-            pre.innerHTML = formatted;
+            var hashes = await getHashes();
+            console.log({ fingerint: hashes });
+            var formattedHashes = jsonFormatHighlight(hashes);
+            pre.innerHTML = `${formattedHashes}`;
             document.body.appendChild(pre);
         }
         main();
